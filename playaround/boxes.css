@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  min-height: 100vh;
+  background-color: aqua;
+  padding: 1rem;
+}
+
+.box {
+  background-color: black;
+  color: aquamarine;
+  height: 150px;
+  width: 500px;
+  padding: 1em;
+}
+.box-1 {
+  transition-duration: 1000ms;
+  transition-timing-function: ease-in;
+}
+.box-1:hover {
+  background-color: blueviolet;
+  width: 800px;
+}
+.box-2 {
+  transition-duration: 1000ms;
+  transition-timing-function: ease-out;
+}
+.box-2:hover {
+  background-color: blueviolet;
+  width: 800px;
+}
+
+.box-3 {
+  transition-duration: 1000ms;
+  transition-timing-function: ease-in-out;
+}
+.box-3:hover {
+  background-color: blueviolet;
+  width: 800px;
+}
+
+.box-4 {
+  transition-duration: 1000ms;
+  transition-timing-function: linear;
+}
+.box-4:hover {
+  background-color: blueviolet;
+  width: 800px;
+}

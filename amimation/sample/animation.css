@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+}
+.container {
+  margin: auto;
+  background-color: black;
+  height: 500px;
+  width: 600px;
+  padding: 1rem;
+}
+
+.box {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+}
+.container:hover .box {
+  animation: left-to-right 3000ms ease-in-out infinite;
+}
+
+@keyframes left-to-right {
+  0% {
+    transform: translate(0%);
+  }
+  30% {
+    transform: translate(0%, 360%);
+  }
+  50% {
+    transform: translate(450%, 360%);
+  }
+  70% {
+    transform: translate(450%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
