@@ -21,6 +21,11 @@ body {
   height: 100px;
   width: 100px;
   animation: left-to-right 3000ms ease-in-out infinite alternate;
+  /* animation-name: left-to-right;
+  animation-duration: 3000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
 }
 .container:hover .box {
   animation-play-state: paused;
