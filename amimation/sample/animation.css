@@ -20,9 +20,10 @@ body {
   background-color: aqua;
   height: 100px;
   width: 100px;
+  animation: left-to-right 3000ms ease-in-out infinite;
 }
 .container:hover .box {
-  animation: left-to-right 3000ms ease-in-out infinite;
+  animation-play-state: paused;
 }
 
 @keyframes left-to-right {
